@@ -1,8 +1,8 @@
 #!/bin/bash
 
-NUMBER1=100
-NUMBER2=200
+NUM1=10
+NUM2=20
 
-sum=$(expr $NUMBER1 + $NUMBER2)
+SUM=$((NUM1 + NUM2))
 
-echo "sum is: ${sum}"
+echo "The sum of $NUM1 and $NUM2 is: $SUM"
